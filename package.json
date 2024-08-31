@@ -4,7 +4,16 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {},
+  "scripts": {
+    "start:cra": "npm start --workspace cra",
+    "start:webpack": "npm start --workspace self-webpack",
+    "dev:vite": "npm run dev --workspace vite",
+    "dev:esbuild": "npm run dev --workspace self-esbuild",
+    "build:cra": "npm run build --workspace cra",
+    "build:webpack": "npm run build --workspace self-webpack",
+    "build:vite": "npm run build --workspace vite",
+    "build:esbuild": "npm run build --workspace self-esbuild"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
