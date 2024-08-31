@@ -48,7 +48,7 @@
 
 ![3_all](https://github.com/user-attachments/assets/794ab371-56f4-4058-8f8a-67947f27a523)
 
-1. Vite: `139kb`
-2. CRA: `486kb`
-3. ESBuild: `1mb`
-4. Webpack: `1.12mb`
+1. Vite: `139KB`
+2. CRA: `486KB`
+3. ESBuild: `1MB`
+4. Webpack: `1.12MB`
